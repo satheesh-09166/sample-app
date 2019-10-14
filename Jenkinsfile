@@ -5,6 +5,6 @@ properties([[$class: 'jenkins.model.BuildDiscarderProperty', strategy: [$class: 
 
 mvnPipeline {
     config_setup = true
-    maven_script = "mvn clean package"
+    maven_script = "${MAVEN_BIN}/mvn clean package"
     //post_build_script = "./scripts/post_build_script.sh"
 }
