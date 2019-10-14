@@ -4,5 +4,6 @@ properties([[$class: 'jenkins.model.BuildDiscarderProperty', strategy: [$class: 
 @Library('utils@master') _
 
 mvnPipeline {
+    config_setup = true
     post_build_script = "./scripts/post_build_script.sh"
 }
