@@ -3,6 +3,6 @@ properties([[$class: 'jenkins.model.BuildDiscarderProperty', strategy: [$class: 
                                                                         artifactNumToKeepStr: '10']]])
 @Library('utils@master') _
 
-commenPipeline {
+mvnPipeline {
     post_build_script = "./scripts/post_build_script.sh"
 }
