@@ -9,3 +9,4 @@ if [ -z "${BUILD_NUMBER}" ]; then
 fi
 
 mvn -U clean install 
+terraform --version
