@@ -4,5 +4,5 @@ properties([[$class: 'jenkins.model.BuildDiscarderProperty', strategy: [$class: 
 @Library('utils@master') _
 
 deploy {
-    maven_script = "mvn clean package"
+    build_script = "scripts/build_maven_jenkins.sh"
 }
