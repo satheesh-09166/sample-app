@@ -2,3 +2,5 @@
 
 
 ls
+cd /sample-app
+mvn clean package
