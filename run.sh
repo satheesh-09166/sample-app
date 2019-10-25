@@ -3,3 +3,5 @@
 
 ls
 pwd
+
+mvn clean package
