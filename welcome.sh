@@ -4,3 +4,4 @@
 yum install httpd -y
 chkconfig httpd on  
 service httpd start
+echo "welcome to apache server"
