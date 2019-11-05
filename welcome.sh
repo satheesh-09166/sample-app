@@ -2,3 +2,4 @@
 
 
 yum install httpd -y
+chkconfig httpd on  
