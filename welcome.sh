@@ -6,4 +6,5 @@ chkconfig httpd on
 service httpd start
 this is dummy line
 echo "welcome to apache server"
+first dummy line
 this is seond dummy line
