@@ -2,5 +2,6 @@
 
 
 yum install httpd -y
-chkconfig httpd on  
+chkconfig httpd on
 service httpd start
+this is dummy line
