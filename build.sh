@@ -8,6 +8,7 @@ docker run -v $(pwd):/maven devopsmptech/mavenimage:1 mvn clean package
 pwd
 sleep 10
 docker build -f Dockerfiletomcat -t devopsmptech/sample-application:$version .
+docker login -u devopsmptech -p admin@987
 docker push devopsmptech/sample-application:$version
 docker rm -f $(docker ps -aq)
 docker rmi -f $(docker images -q)
