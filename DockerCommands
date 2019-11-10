@@ -26,6 +26,7 @@ docer commit CONTONERID NEWimagename:VERSION
 
 ####################Jenkins and Docker#################
 #! /bin/bash
+sudo yum install git -y
 sudo yum remove java*
 sudo yum install java-1.8.0-openjdk-devel -y
 java -version
