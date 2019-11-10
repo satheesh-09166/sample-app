@@ -39,3 +39,4 @@ sudo service docker start
 sudo chkconfig docker on
 sudo service jenkins start
 sudo chkconfig jenkins on
+sudo usermod -aG docker jenkins
