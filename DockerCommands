@@ -1,0 +1,19 @@
+yum install docker -y
+sudo servive docker stsrt
+chkconfig docker on
+sudo usermoad -aG docker ec2-user
+sudo reboot
+docker images
+docker images -q
+docker ps -q
+docker ps -aq
+docker pull imagename
+docker run -it --name suresh -p hostport:contionerport IMAGENAME/IMAGEID
+docker run -it IMAGENAME/IMAGEID bash
+docker exec -it CONTONERID
+docker inspect CONTONERID/IMAGEID
+docer build -t NMAEOFIMAGE:VERSION .
+docker tag OLDNAME:VERSION NEWNAME:VERSION
+docker push REGISTORYNAME/IMAGENAMR:VERSION
+docker login -u USERNAME -p PASSWORD
+docer commit CONTONERID NEWimagename:VERSION
