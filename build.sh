@@ -6,7 +6,7 @@ docker build -t devopsmptech/mavenimage:1 .
 docker push devopsmptech/mavenimage:1
 docker run -v $(pwd):/maven devopsmptech/mavenimage:1 mvn package
 pwd
-ls
+ls target/
 #cd /target
 #mv *.war myapp.war
 #sleep 10
