@@ -9,3 +9,4 @@ docker run -v $(pwd):/maven -v /var/lib/jenkins/target:/maven/target devopsmptec
 rm -rf /var/lib/jenkins/builds
 mkdir -p /var/lib/jenkins/builds || true
 cp /var/lib/jenkins/target/*.war /var/lib/jenkins/builds/
+mv /var/lib/jenkins/builds/*.war /var/lib/jenkins/builds/myapp.war
