@@ -8,5 +8,6 @@ mkdir -p /var/lib/jenkins/target  || true
 docker run -v $(pwd):/maven -v /var/lib/jenkins/target:/maven/target devopsmptech/mavenimage:1 mvn package
 cp /var/lib/jenkins/target/*.war /var/lib/jenkins/builds/
 mv /var/lib/jenkins/builds/*.war /var/lib/jenkins/builds/myapp.war
+sleep 10
 docker build -f Dockerfiletomcat -t devopsmptech/sample-application:$version .
 docker push devopsmptech/sample-application:$version
