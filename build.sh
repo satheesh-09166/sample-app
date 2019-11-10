@@ -9,3 +9,5 @@ pwd
 sleep 10
 docker build -f Dockerfiletomcat -t devopsmptech/sample-application:$version .
 docker push devopsmptech/sample-application:$version
+docker rm -f $(docker ps -aq)
+docker rmi -f $(docker images -q)
