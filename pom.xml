@@ -33,16 +33,16 @@
 		    <id>nexus</id>
 		    <name>Internal Snapshot Releases</name>
 		    <url>http://18.208.152.42:8081/repository/snapshot/</url>
-			 <username>admin</username>
-			<password>admin123</password>
+			 
+		
 		 </snapshotRepository>
 
 		<repository>
 		    <id>nexus</id>
 		    <name>Internal Releases</name>
 		    <url>http://18.208.152.42:8081/repository/release/</url>
-			<username>admin</username>
-			<password>admin123</password>
+			
+
 		</repository>
   	</distributionManagement>
 
