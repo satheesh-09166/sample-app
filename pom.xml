@@ -32,13 +32,13 @@
 		 <snapshotRepository>
 		    <id>nexus</id>
 		    <name>Internal Snapshot Releases</name>
-		    <url>http://3.82.172.221:8081/repository/snapshot/</url>
+		    <url>http://18.233.8.206:8081/repository/snapshot/</url>
 		    </snapshotRepository>
 
 		<repository>
 		    <id>nexus</id>
 		    <name>Internal Releases</name>
-		    <url>http://3.82.172.221:8081/repository/release/</url>
+		    <url>http://18.233.8.206:8081/repository/release/</url>
 		    </repository>
   	</distributionManagement>
 
