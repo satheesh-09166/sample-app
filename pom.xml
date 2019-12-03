@@ -32,13 +32,13 @@
 		 <snapshotRepository>
 		    <id>nexus</id>
 		    <name>Internal Snapshot Releases</name>
-		    <url>http://54.83.167.59:8081/repository/sample-app-snap/</url>
+		    <url>http://18.208.152.42:8081/repository/sample-app-snap/</url>
 		 </snapshotRepository>
 
 		<repository>
 		    <id>nexus</id>
 		    <name>Internal Releases</name>
-		    <url>http://54.83.167.59:8081/repository/sample-app-release/</url>
+		    <url>/http://18.208.152.42:8081repository/sample-app-release/</url>
 		</repository>
   	</distributionManagement>
 
